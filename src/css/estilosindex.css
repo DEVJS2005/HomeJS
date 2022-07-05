@@ -1,0 +1,63 @@
+body,section{
+    min-width: 320px;
+    max-width: 2560px;
+    min-height: 568px;
+    max-height: 1440px;
+}
+footer{
+    background-color: aquamarine;
+    display:block;
+	text-align: center;
+	color: #FFFFFF;
+	justify-content:center;
+	align-items:center;
+    margin: auto;
+    height: 100px;
+}
+#home,#ebooks,#inscricao{
+    padding-left: 0.3em;
+    padding-right: 0.1em;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 5px;
+    height: 30px;
+    width: 115px;
+    font-size: 2em;
+}
+#cabecario{
+    text-align: center;
+    background-color: rgb(8, 150, 206);
+    height: 300px;
+}
+#nav{
+    padding-top: 50px;
+}
+
+#logoMarca{
+    text-align: center;
+    height: 150px; 
+    background-color: goldenrod;
+}
+.titobody{
+    color: #FFFFFF;
+    text-align: center;
+}
+.titos{
+    padding-top: 50px;
+}
+a:link{
+    color: #FFFFFF;
+    background-color: #800080;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #a626a6;
+    cursor: pointer;
+}
+a:active{
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
